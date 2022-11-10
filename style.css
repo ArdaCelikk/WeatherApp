@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-image: url("smap-weather.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.ust{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0;
+
+}
+
+.ara{
+    display: flex;
+    height: 45px;
+    width: 280px;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    background-color:rgba(255, 255, 255, 0.1);
+    border:1px solid rgba(255, 255, 255, 0.8);
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+.ara::placeholder{
+    color: white;
+}
+
+.orta{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+}
+
+.box2{
+    height: 450px;
+    width: 450px;
+}
+
+.box-ust{
+    display: flex;
+}
+
+.in-box{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .countryFlag{
+}
+
+.place{
+}
+
+.weather{
+} */
+
+.derece{
+    color: white;
+}
+h1{
+    font-size: 6rem;
+}
+
+.durum{
+    height: 50px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.alt{
+    padding-top: 3rem;
+}
+
+.box-alt2{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    width: 443px;
+}
+.box-alt2 div{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-alt2 div p{
+    font-size: 1.2rem;
+}
